@@ -46,7 +46,6 @@ func main() {
 	fmt.Println("Waiting for client...")
 	for {
 		connection, err := server.Accept()
-        server.
 		if err != nil {
 			fmt.Println("Error accepting: ", err.Error())
 			os.Exit(1)
